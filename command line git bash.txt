@@ -18,3 +18,5 @@ git push -u origin master
 …or push an existing repository from the command line ( jika sudah ada repo local yang dibuat )
 git remote add origin https://github.com/Yosepheryana24/test.git
 git push -u origin master
+
+.
