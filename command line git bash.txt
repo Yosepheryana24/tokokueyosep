@@ -5,3 +5,16 @@ git commit -m "pesan commit" (melakukan commit dengan pesan commit)
 git commit -am "pesan commit" (commiit dengan pesan tapi file yang sudah ada dan di modified)
 git status (mengecek status file)
 alias graph="git log --all --decorate --oneline -- graph" (melihat dalam mode grafik, setelah itu hanya memanggil demgan comand graph saja)
+
+
+…or create a new repository on the command line ( jika belum ada repo dilocal lakukan bash ini )
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Yosepheryana24/test.git
+git push -u origin master
+
+…or push an existing repository from the command line ( jika sudah ada repo local yang dibuat )
+git remote add origin https://github.com/Yosepheryana24/test.git
+git push -u origin master
