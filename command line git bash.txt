@@ -1,0 +1,7 @@
+git init (inisiasi repo)
+git add Nama_files (memasukkan ke staging area 1 files saja)
+git add . (semua files masuk ke staging area)
+git commit -m "pesan commit" (melakukan commit dengan pesan commit)
+git commit -am "pesan commit" (commiit dengan pesan tapi file yang sudah ada dan di modified)
+git status (mengecek status file)
+alias graph="git log --all --decorate --oneline -- graph" (melihat dalam mode grafik, setelah itu hanya memanggil demgan comand graph saja)
